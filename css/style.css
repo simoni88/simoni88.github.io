@@ -1,0 +1,65 @@
+.hidden{
+    display : none;
+}
+
+.bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+}
+.bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+}
+
+.weather-pos img {
+    position: relative;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+   
+} 
+
+
+.weather-pos { 
+    display: grid;
+    place-items: center;
+    min-height: 10vh;    
+}
+  
+.content {
+    font-family: system-ui, serif;
+    font-size: 2rem;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.div-left {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    
+}
+
+.div-right {
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.div-top {
+    position: relative;
+}
+
+.div-bottom {
+    position: absolute;
+    bottom: 0px;
+}

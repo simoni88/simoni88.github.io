@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <title>Let's Finish this!</title>
+    </head>
+    <body>   
+        <div class="bg">
+            <img alt="">
+        </div>
+        <div class="div-top">
+            <div class="div-left">
+                <div id="weather"
+                    class="weather-pos"
+                    style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                        font-weight: 500;
+                        font-weight: bold; 
+                        ">
+
+                    <span style="font-size: 5.0em; line-height: 5.0em;"></span>
+                    <img  id="icon"/>
+                    <span id="middle" style="font-size: 2.0em;"></span>            
+                    <span style="font-size: 3.0em;"></span>
+                </div>
+               
+            </div>
+            <div class="div-right">      
+                <h2 id="clock" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    font-weight: bold;">00:00:00</h2>
+               
+                <form class="hidden" id="login-form">
+                    <input required
+                        maxlength="15"
+                        type="text"
+                        size="30"
+                        placeholder="What is your name?"/>
+                    <input type="submit" value="Log In"/>
+                </form>
+                <h1 class="hidden" id="greeting"></h1>
+                <form id="todo-form">   
+                    <input type="text" size="30" placeholder="Write a To Do and Press Enter" required />
+                </form>
+                <ul id="todo-list">
+                </ul>
+            
+            </div>
+        </div>
+        
+        <div class="div-bottom">
+            <div id="quote" style="float:left;">
+                <span style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-weight: 500;
+                font-weight: bold; 
+                font-size: 3.0em;"></span>      
+                <span style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-weight: 500; 
+                font-size: 2.0em;"></span>
+            </div>
+        </div>
+
+        <script src="js/background.js"></script>
+        <script src="js/clock.js"></script>      
+        <script src="js/greetings.js"></script>  
+        <script src="js/quotes.js"></script>
+        <script src="js/todolist.js"></script>
+        <script src="js/weather.js"></script>
+    </body>
+</html>
